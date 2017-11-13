@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE982ADC1F94AFA000EE5C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE982ADB1F94AFA000EE5C93 /* AppDelegate.swift */; };
+		FE982ADE1F94AFA000EE5C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE982ADD1F94AFA000EE5C93 /* ViewController.swift */; };
+		FE982AE31F94AFA000EE5C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE982AE21F94AFA000EE5C93 /* Assets.xcassets */; };
+		FE982AE61F94AFA000EE5C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE982AE41F94AFA000EE5C93 /* LaunchScreen.storyboard */; };
+		FE982AF11F94AFA000EE5C93 /* Teams_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE982AF01F94AFA000EE5C93 /* Teams_AppTests.swift */; };
+		FE982AFC1F94AFA000EE5C93 /* Teams_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE982AFB1F94AFA000EE5C93 /* Teams_AppUITests.swift */; };
+		FE982B0C1F94C01500EE5C93 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE982B0B1F94C01500EE5C93 /* TeamCell.swift */; };
+		FE982B0E1F94C05800EE5C93 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE982B0D1F94C05800EE5C93 /* Team.swift */; };
+		FE982B101F94C08300EE5C93 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE982B0F1F94C08300EE5C93 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE982AED1F94AFA000EE5C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE982AD01F94AFA000EE5C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE982AD71F94AFA000EE5C93;
+			remoteInfo = "Teams App";
+		};
+		FE982AF81F94AFA000EE5C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE982AD01F94AFA000EE5C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE982AD71F94AFA000EE5C93;
+			remoteInfo = "Teams App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE982AD81F94AFA000EE5C93 /* Teams App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teams App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE982ADB1F94AFA000EE5C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE982ADD1F94AFA000EE5C93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE982AE21F94AFA000EE5C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE982AE51F94AFA000EE5C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE982AE71F94AFA000EE5C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE982AEC1F94AFA000EE5C93 /* Teams AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teams AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE982AF01F94AFA000EE5C93 /* Teams_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams_AppTests.swift; sourceTree = "<group>"; };
+		FE982AF21F94AFA000EE5C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE982AF71F94AFA000EE5C93 /* Teams AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teams AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE982AFB1F94AFA000EE5C93 /* Teams_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams_AppUITests.swift; sourceTree = "<group>"; };
+		FE982AFD1F94AFA000EE5C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE982B0B1F94C01500EE5C93 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		FE982B0D1F94C05800EE5C93 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		FE982B0F1F94C08300EE5C93 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE982AD51F94AFA000EE5C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE982AE91F94AFA000EE5C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE982AF41F94AFA000EE5C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE982ACF1F94AFA000EE5C93 = {
+			isa = PBXGroup;
+			children = (
+				FE982ADA1F94AFA000EE5C93 /* Teams App */,
+				FE982AEF1F94AFA000EE5C93 /* Teams AppTests */,
+				FE982AFA1F94AFA000EE5C93 /* Teams AppUITests */,
+				FE982AD91F94AFA000EE5C93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE982AD91F94AFA000EE5C93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE982AD81F94AFA000EE5C93 /* Teams App.app */,
+				FE982AEC1F94AFA000EE5C93 /* Teams AppTests.xctest */,
+				FE982AF71F94AFA000EE5C93 /* Teams AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE982ADA1F94AFA000EE5C93 /* Teams App */ = {
+			isa = PBXGroup;
+			children = (
+				FE982ADB1F94AFA000EE5C93 /* AppDelegate.swift */,
+				FE982ADD1F94AFA000EE5C93 /* ViewController.swift */,
+				FE982B0B1F94C01500EE5C93 /* TeamCell.swift */,
+				FE982B0F1F94C08300EE5C93 /* Extensions.swift */,
+				FE982AE21F94AFA000EE5C93 /* Assets.xcassets */,
+				FE982AE41F94AFA000EE5C93 /* LaunchScreen.storyboard */,
+				FE982AE71F94AFA000EE5C93 /* Info.plist */,
+				FE982B0D1F94C05800EE5C93 /* Team.swift */,
+			);
+			path = "Teams App";
+			sourceTree = "<group>";
+		};
+		FE982AEF1F94AFA000EE5C93 /* Teams AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE982AF01F94AFA000EE5C93 /* Teams_AppTests.swift */,
+				FE982AF21F94AFA000EE5C93 /* Info.plist */,
+			);
+			path = "Teams AppTests";
+			sourceTree = "<group>";
+		};
+		FE982AFA1F94AFA000EE5C93 /* Teams AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE982AFB1F94AFA000EE5C93 /* Teams_AppUITests.swift */,
+				FE982AFD1F94AFA000EE5C93 /* Info.plist */,
+			);
+			path = "Teams AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE982AD71F94AFA000EE5C93 /* Teams App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE982B001F94AFA000EE5C93 /* Build configuration list for PBXNativeTarget "Teams App" */;
+			buildPhases = (
+				FE982AD41F94AFA000EE5C93 /* Sources */,
+				FE982AD51F94AFA000EE5C93 /* Frameworks */,
+				FE982AD61F94AFA000EE5C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Teams App";
+			productName = "Teams App";
+			productReference = FE982AD81F94AFA000EE5C93 /* Teams App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE982AEB1F94AFA000EE5C93 /* Teams AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE982B031F94AFA000EE5C93 /* Build configuration list for PBXNativeTarget "Teams AppTests" */;
+			buildPhases = (
+				FE982AE81F94AFA000EE5C93 /* Sources */,
+				FE982AE91F94AFA000EE5C93 /* Frameworks */,
+				FE982AEA1F94AFA000EE5C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE982AEE1F94AFA000EE5C93 /* PBXTargetDependency */,
+			);
+			name = "Teams AppTests";
+			productName = "Teams AppTests";
+			productReference = FE982AEC1F94AFA000EE5C93 /* Teams AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE982AF61F94AFA000EE5C93 /* Teams AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE982B061F94AFA000EE5C93 /* Build configuration list for PBXNativeTarget "Teams AppUITests" */;
+			buildPhases = (
+				FE982AF31F94AFA000EE5C93 /* Sources */,
+				FE982AF41F94AFA000EE5C93 /* Frameworks */,
+				FE982AF51F94AFA000EE5C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE982AF91F94AFA000EE5C93 /* PBXTargetDependency */,
+			);
+			name = "Teams AppUITests";
+			productName = "Teams AppUITests";
+			productReference = FE982AF71F94AFA000EE5C93 /* Teams AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE982AD01F94AFA000EE5C93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Jyo Mithun";
+				TargetAttributes = {
+					FE982AD71F94AFA000EE5C93 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FE982AEB1F94AFA000EE5C93 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE982AD71F94AFA000EE5C93;
+					};
+					FE982AF61F94AFA000EE5C93 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE982AD71F94AFA000EE5C93;
+					};
+				};
+			};
+			buildConfigurationList = FE982AD31F94AFA000EE5C93 /* Build configuration list for PBXProject "Teams App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE982ACF1F94AFA000EE5C93;
+			productRefGroup = FE982AD91F94AFA000EE5C93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE982AD71F94AFA000EE5C93 /* Teams App */,
+				FE982AEB1F94AFA000EE5C93 /* Teams AppTests */,
+				FE982AF61F94AFA000EE5C93 /* Teams AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE982AD61F94AFA000EE5C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE982AE61F94AFA000EE5C93 /* LaunchScreen.storyboard in Resources */,
+				FE982AE31F94AFA000EE5C93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE982AEA1F94AFA000EE5C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE982AF51F94AFA000EE5C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE982AD41F94AFA000EE5C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE982B101F94C08300EE5C93 /* Extensions.swift in Sources */,
+				FE982B0E1F94C05800EE5C93 /* Team.swift in Sources */,
+				FE982ADE1F94AFA000EE5C93 /* ViewController.swift in Sources */,
+				FE982ADC1F94AFA000EE5C93 /* AppDelegate.swift in Sources */,
+				FE982B0C1F94C01500EE5C93 /* TeamCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE982AE81F94AFA000EE5C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE982AF11F94AFA000EE5C93 /* Teams_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE982AF31F94AFA000EE5C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE982AFC1F94AFA000EE5C93 /* Teams_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE982AEE1F94AFA000EE5C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE982AD71F94AFA000EE5C93 /* Teams App */;
+			targetProxy = FE982AED1F94AFA000EE5C93 /* PBXContainerItemProxy */;
+		};
+		FE982AF91F94AFA000EE5C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE982AD71F94AFA000EE5C93 /* Teams App */;
+			targetProxy = FE982AF81F94AFA000EE5C93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE982AE41F94AFA000EE5C93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE982AE51F94AFA000EE5C93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE982AFE1F94AFA000EE5C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE982AFF1F94AFA000EE5C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE982B011F94AFA000EE5C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Teams App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minnotech.test.Teams-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE982B021F94AFA000EE5C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Teams App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minnotech.test.Teams-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE982B041F94AFA000EE5C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Teams AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minnotech.test.Teams-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teams App.app/Teams App";
+			};
+			name = Debug;
+		};
+		FE982B051F94AFA000EE5C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Teams AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minnotech.test.Teams-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teams App.app/Teams App";
+			};
+			name = Release;
+		};
+		FE982B071F94AFA000EE5C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Teams AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minnotech.test.Teams-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Teams App";
+			};
+			name = Debug;
+		};
+		FE982B081F94AFA000EE5C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Teams AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minnotech.test.Teams-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Teams App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE982AD31F94AFA000EE5C93 /* Build configuration list for PBXProject "Teams App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE982AFE1F94AFA000EE5C93 /* Debug */,
+				FE982AFF1F94AFA000EE5C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE982B001F94AFA000EE5C93 /* Build configuration list for PBXNativeTarget "Teams App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE982B011F94AFA000EE5C93 /* Debug */,
+				FE982B021F94AFA000EE5C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE982B031F94AFA000EE5C93 /* Build configuration list for PBXNativeTarget "Teams AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE982B041F94AFA000EE5C93 /* Debug */,
+				FE982B051F94AFA000EE5C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE982B061F94AFA000EE5C93 /* Build configuration list for PBXNativeTarget "Teams AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE982B071F94AFA000EE5C93 /* Debug */,
+				FE982B081F94AFA000EE5C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE982AD01F94AFA000EE5C93 /* Project object */;
+}
